@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<string name="lang_prompt">Choose a Language</string>
+    <string-array name="lang_supported">
+        <item>Choose your language</item>
+        <item>Malayalam</item>
+        <item>Hindi</item>
+    </string-array>-->
+
+   <!-- <string name="your_lang_prompt">Select your language</string>
+    <string-array name="your_lang">
+        <item>Select your language</item>
+        <item>English</item>
+        <item>Malayalam</item>
+        <item>Hindi</item>
+    </string-array>-->
+    <string name="About" tools:ignore="StringEscaping">
+    Cadeceus is dedicated to changing people\'s lives through the power of language.
+    The applications innovative digital solutions drive positive learning outcomes
+    for the inspired learner at home or in schools and workplaces around the world.
+    </string>
+    <string name="text_with_paragraphs" tools:ignore="StringEscaping">
+
+Il était une fois un oiseau qui aimait une baleine. Et une baleine qui aimait un oiseau.\n\n
+
+Once upon a time there was a bird who loved a whale. And a whale who loved a bird.\n\n\n
+
+L\’oiseau aimait le beau sourire de la baleine. Il aimait la façon gracieuse qu\’elle avait de nager dans l\’eau.
+La baleine aimait les belles plumes blanches de l\’oiseau. Elle aimait le regarder planer dans le ciel.\n\n
+
+The bird loved the whale\'s beautiful smile. He loved the gracious way she swam through the water.
+The whale loved the bird\'s handsome white feathers. She loved to watch him soar through the sky.\n\n\n
+
+
+Ils aimaient tous les deux manger beaucoup de petits poissons.\n\n
+
+They both loved to eat lots of tiny fish.\n\n\n
+
+
+Durant l\’été, l\’oiseau et la baleine se retrouvaient dans la baie. Ils parlaient beaucoup.
+        Ils parlaient de la lune et des marées, et des bateaux sur l\’océan.\n\n
+
+During the summer, the bird and the whale met in the bay. They talked a lot.
+        They talked about the moon, and the tides, and the ships on the ocean.\n\n\n
+
+
+L\’oiseau racontait des blagues et faisait rire la baleine. La baleine chantait de belles chansons qui faisaient pleurer l\’oiseau.\n\n
+
+The bird told jokes and made the whale laugh. The whale sang beautiful songs that made the bird cry.\n\n\n
+
+        Un jour, tu pourras rencontrer ma famille dans l\’océan », dit la baleine. \n\n
+        Et tu pourras rencontrer mes amis sur terre », dit l\’oiseau. \n\n
+        Tout était parfait.\n\n
+
+                "One day, you can meet my family in the ocean," said the whale.\n\n
+                "And you can meet my friends on the land," said the bird.\n\n
+                Everything was perfect.\n\n\n
+
+
+                Mais le monde ne s\’arrête pas de tourner simplement parce qu\’un oiseau et une baleine tombent amoureux.
+                L\’été fit place à l\’automne et l\’automne fit place à l\’hiver. L\’océan devint froid et toutes les baleines partirent vers des eaux plus chaudes.\n\n
+
+                But the world does not stop turning simply because a bird and whale fall in love. Summer gave way to autumn, and autumn gave way to winter.
+                The ocean became cold, and all the whales left for warmer waters.\n\n\n
+
+
+                « Viens avec moi vers des eaux plus chaudes », dit la baleine. « C\’est un endroit formidable.
+                Il y fait toujours chaud et il y a tellement de poissons à manger. »\n\n
+
+                "Come with me to warmer waters," said the whale. "It\’s a wonderful place. It always does warm there, and there are so many fish to eat."\n\n\n
+
+
+                « J\’aime manger du poisson », dit l\’oiseau. « Et je t\’aime aussi. Je te suivrai n\’importe où. Mais d\’abord, apprends-moi à être une baleine. »\n\n
+
+                "I love to eat fish," said the bird. "And I love you too. I will follow you anywhere. But first, teach me to be a whale."\n\n\n
+
+                ""
+
+    </string>
+
+</resources>

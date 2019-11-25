@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgrndclr">
+
+    <RelativeLayout
+        android:layout_marginVertical="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <Spinner
+            android:id="@+id/chooselang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tooltipText="Choose Language"
+            android:textColor="@color/Black"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="70dp">
+
+        </Spinner>
+        <!--android:entries="@array/lang_supported"
+        android:prompt="@string/lang_prompt"-->/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginVertical="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <Spinner
+            android:id="@+id/sel_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your Language"
+            android:textSize="50dp"
+            android:textColor="@color/Black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="50dp">
+        </Spinner>
+        <!-- android:entries="@array/your_lang"
+        android:prompt="@string/your_lang_prompt"-->/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginVertical="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp">
+
+        <Button
+            android:id="@+id/beg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Beginner "
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textSize="25dp"
+            android:textColor="@color/Black"
+            android:background="#aabddf"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/adv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Advanced "
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textSize="25dp"
+            android:textColor="@color/Black"
+            android:background="#aabddf"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
