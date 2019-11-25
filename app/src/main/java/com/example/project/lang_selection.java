@@ -41,6 +41,7 @@ public class lang_selection extends AppCompatActivity implements View.OnClickLis
         addItemsOnSpinner2();
 
         beginner.setOnClickListener(this);
+        advanced.setOnClickListener(this);
 
     }
 

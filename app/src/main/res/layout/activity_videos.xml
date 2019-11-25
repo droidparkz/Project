@@ -8,9 +8,9 @@
     tools:context=".Videos">
 
     <com.google.android.youtube.player.YouTubePlayerView
-        android:layout_width="wrap_content"
+        android:id="@+id/youtubeplayer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
     </com.google.android.youtube.player.YouTubePlayerView>
 
 </RelativeLayout>

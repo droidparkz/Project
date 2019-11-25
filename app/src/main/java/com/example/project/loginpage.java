@@ -46,73 +46,34 @@ public class loginpage extends AppCompatActivity implements View.OnClickListener
 
         langcse = prefs.getString("langdifficulty", null);
 
+        if (langcse != null && langcse.equals("beginner"))
+        {
+            Intent intent = new Intent(loginpage.this,beginner_one.class);
+            startActivity(intent);
+
+        }
+
+        else if (langcse != null && langcse.equals("advanced"))
+        {
+            Intent intent = new Intent(loginpage.this,advanced.class);
+            startActivity(intent);
+
+        }
+
         google = (RelativeLayout) findViewById(R.id.logingwithgoogle);
-
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestEmail()
-                .build();
-
-        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
         google.setOnClickListener(this);
 
     }
 
-    private void signIn() {
-        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-        startActivityForResult(signInIntent, RC_SIGN_IN);
-    }
+     @Override
+     public void onClick(View view) {
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if (requestCode == RC_SIGN_IN) {
-
-            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            handleSignInResult(task);
-        }
-    }
-
-    private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
-        try {
-            GoogleSignInAccount account = completedTask.getResult(ApiException.class);
-
-            startActivity(new Intent(loginpage.this, lang_selection.class));
-
-        } catch (ApiException e) {
-
-            Log.w("Google Sign In Error", "signInResult:failed code=" + e.getStatusCode());
-            Toast.makeText(loginpage.this, "Failed", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    @Override
-    protected void onStart() {
-
-        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
-        if (account != null) {
-
-            if (langcse != null && langcse.equals("beginner")) {
-                startActivity(new Intent(loginpage.this, beginner_one.class));
-            }
-            else if (langcse != null && langcse.equals("advanced")) {
-                startActivity(new Intent(loginpage.this, advanced.class));
-            }
-
-        }
-        super.onStart();
-    }
-
-
-
-        @Override
-        public void onClick(View view) {
-
-            if (view == google) {
-
-                signIn();
-            }
-        }
-    }
+         if (view == google)
+         {
+             Intent intent = new Intent(loginpage.this,lang_selection.class);
+             startActivity(intent);
+         }
+     }
+}
 
